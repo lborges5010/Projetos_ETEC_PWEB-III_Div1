@@ -1,6 +1,6 @@
 <?php
 //login.php - serve para logar no sistema se existir o usuário
-require '../app/conexao.php';
+require '../../app/conexao.php';
 $pdo = Conexao::conectar();
 $pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 //$json = $_GET['jsn'];
